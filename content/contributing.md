@@ -22,7 +22,7 @@ Before the contribution you need check the file structure on the
 - If you add a new file to the file structure ensure add to the tree on the
   [Readme Source File](./src/README.md) and add this con the header on the file:
 
-```js
+```
 // Copyright © 2022 Dpm Land. All Rights Reserved.
 ```
 
@@ -32,7 +32,7 @@ Before the contribution you need check the file structure on the
 
 - Use underscores, not dashes in filenames example:
 
-```js
+```
 example_file.ts; // GOOD
 example - file.ts; // BAD
 ```
@@ -45,7 +45,7 @@ Please follow the guidelines for
 - For end any readme file if you add into the src or the root folder add this
   lines
 
-```markdown
+```
 ---
 Made with :heart: in :earth_americas:
 ```

@@ -15,7 +15,7 @@ quality = 99
 
 [params]
 description = "DPM ( Deno Package Manager ) manage the Deno Modules and dependencies."
-homeMetaContent = "DPM ( Deno Package Manager ) is a simple, modern and easy way to **manage the Deno Modules and dependencies**"
+homeMetaContent = "DPM ( Deno Package Manager ) is a simple, modern and easy way to manage the Deno Modules and dependencies."
 footer = "Made with [Hugo](https://gohugo.io/) and ♥ in Ecuador and World. Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme)."
 dateFormat = "Jan 2, 2006"
 katex = true
@@ -24,8 +24,7 @@ search = true
 showThemeSwitcher = true
 defaultDarkTheme = false
 moveFooterToHeader = false
-logoAlt = "An alternative text description of the logo"
-customCss = ['css/fonts.css']
+logoAlt = "Black and White Deno Packae Manager Logo"
 
 [[menu.nav]]
 name = "Home"
