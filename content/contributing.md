@@ -66,13 +66,15 @@ deno install -A -f -n ddpm --unstable --import-map=import_map.json dev.ts
 
 For remote usage run:
 
+<!-- deno-fmt-ignore-start -->
+
 {{< cmd >}}
 
-deno install -A -f -n ddpm --unstable
---import-map=https://denopkg.com/dpmland/dpm@dev/import_map.json
-https://denopkg.com/dpmland/dpm@dev/dev.ts
+deno install -A -f -n ddpm --unstable --import-map=https://denopkg.com/dpmland/dpm@dev/import_map.json https://denopkg.com/dpmland/dpm@dev/dev.ts
 
 {{< /cmd >}}
+
+<!-- deno-fmt-ignore-end -->
 
 Commands avaliable:
 

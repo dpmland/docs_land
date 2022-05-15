@@ -6,6 +6,10 @@ tag: [command, deno]
 
 ## Commands Avaliable
 
+The DPM CLI has many commands and here you can find all the commands and their
+description if you want more information about a specific command you can click
+on the command name!
+
 - **about || me**: Here you can found the information and some tools for learn
   more about dpm.
 
@@ -34,3 +38,7 @@ tag: [command, deno]
 - **upgrade**: Upgrade dpm executable to latest or given version.
 
 - **completions**: Generate shell completions
+
+---
+
+Made with ♥ in Ecuador and the World
