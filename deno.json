@@ -1,0 +1,19 @@
+{
+  "$schema": "https://deno.land/x/deno@v1.21.3/cli/schemas/config-file.v1.json",
+  "fmt": {
+    "files": {
+      "exclude": ["themes/", "static/"]
+    },
+    "options": {
+      "useTabs": false,
+      "indentWidth": 2,
+      "singleQuote": true
+    }
+  },
+  "tasks": {
+    "run": "hugo serve",
+    "help": "echo 'For write a new file you need run << hugo new nameOfFile.md >>\nOr for write a new command or in folder you need run << hugo new folderName/nameOfFile.md >>",
+    "fmt": "deno fmt -c deno.json",
+    "fmt:check": "deno fmt -c deno.json --check"
+  }
+}

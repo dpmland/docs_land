@@ -1,0 +1,87 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Deno Package Manager"
+theme = "cupper-hugo-theme"
+
+[taxonomies]
+tag = "tags"
+
+[permalinks]
+post = "/:filename/"
+
+[imaging]
+quality = 99
+
+[params]
+description = "DPM ( Deno Package Manager ) manage the Deno Modules and dependencies."
+homeMetaContent = "DPM ( Deno Package Manager ) is a simple, modern and easy way to **manage the Deno Modules and dependencies**"
+footer = "Made with [Hugo](https://gohugo.io/) and ♥ in Ecuador and World. Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme)."
+dateFormat = "Jan 2, 2006"
+katex = true
+hideHeaderLinks = false
+search = true
+showThemeSwitcher = true
+defaultDarkTheme = false
+moveFooterToHeader = false
+logoAlt = "An alternative text description of the logo"
+
+[[menu.nav]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.nav]]
+name = "Docs"
+url = "/docs/"
+weight = 2
+
+[[menu.nav]]
+name = "Contributing"
+url = "/contributing/"
+weight = 3
+
+[[menu.nav]]
+name = "Tags"
+url = "/tags/"
+weight = 4
+
+[[menu.nav]]
+name = 'Social Network'
+url = '/media/'
+weight = 5
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
+[markup.goldmark.parser]
+attribute = true
+autoHeadingID = true
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xHTML = false
+
+[markup.highlight]
+codeFences = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
+
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2
