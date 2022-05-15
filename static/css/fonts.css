@@ -1,0 +1,7 @@
+/* Fonts */
+@font-face {
+    font-family: 'Miriam Libre';
+    src: url('https://example.com/css/fonts/miriamlibre-bold.woff2') format('woff2'), url('https://example.com/css/fonts/miriamlibre-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

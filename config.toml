@@ -25,6 +25,7 @@ showThemeSwitcher = true
 defaultDarkTheme = false
 moveFooterToHeader = false
 logoAlt = "An alternative text description of the logo"
+customCss = ['css/fonts.css']
 
 [[menu.nav]]
 name = "Home"
