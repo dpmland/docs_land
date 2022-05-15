@@ -6,6 +6,7 @@
 [![Twitter](https://img.shields.io/twitter/follow/dpm_land?label=Dpm%20Land&style=social)](https://twitter.com/intent/follow?screen_name=dpm_land)
 [![GitHub license](https://img.shields.io/github/license/dpmland/draco?label=License)](./LICENSE)
 ![Github Workflow](https://img.shields.io/github/workflow/status/dpmland/draco/CI)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a7ad75f-3780-4529-980b-792a4d31e863/deploy-status)](https://app.netlify.com/sites/dpmland-docs/deploys)
 
 Is the main online documentation for the DPM cli! provided by
 [Hugo](https://gohugo.io)
