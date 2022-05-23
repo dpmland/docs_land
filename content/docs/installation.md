@@ -26,7 +26,7 @@ write **canary** and this version is avaliable in the
 ## Installation Command
 
 ```
-deno run -A --unstable https://denopkg.com/dpmland/dpm@dev/install.ts
+deno run -A --unstable https://raw.githubusercontent.com/dpmland/dpm/dev/install.ts
 ```
 
 ---
