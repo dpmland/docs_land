@@ -13,8 +13,8 @@ on the command name!
 - **about || me**: Here you can found the information and some tools for learn
   more about dpm.
 
-- **docs || doc**: Here you can get the documentation and download, clean and
-  update the docs.
+- **[docs || doc](/commands/docs)**: Here you can get the documentation and
+  download, clean and update the docs.
 
 - **[init || create](/commands/init)**: Here you can generate some files for
   work with dpm and tools for a better development with Deno.
@@ -26,8 +26,8 @@ on the command name!
 - **[install || add](/commands/install)**: If you want use external packages and
   dependencies can you use this tool!
 
-- **tools**: Here you can install tools for a better development with deno and
-  for complement the dpm cli.
+- **[tools](/commands/tools)**: Here you can install tools for a better
+  development with deno and for complement the dpm cli.
 
 - **[task || run](/commands/task)**: With this command you can run scripts like
   `npm scripts` you can define this in the `dpm.json` file.
@@ -37,7 +37,7 @@ on the command name!
 
 - **upgrade**: Upgrade dpm executable to latest or given version.
 
-- **completions**: Generate shell completions
+- **[completions](/commands/completions)**: Generate shell completions
 
 ---
 
